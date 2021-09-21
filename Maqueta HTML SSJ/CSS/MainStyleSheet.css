@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;    
+}
+
+.MainContainer{
+    width: 100%;
+    margin: 0 auto;  
+}
+
+.conteiner{
+    margin-top: 4px;
+    background-color: #e2e2e2;  
+    color: #919191;  
+    padding-top: 25px;
+    border: 2px #000;
+}
+
+.GridContainer{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 66% 32%;
+    gap: 2%;
+}
+
+.GridContainer .conteiner{
+    background-color: #fff;
+}
+
+#NAV{
+    height: 100px;
+    text-align: center;    
+    background-color:#ffecb2;
+}
+
+#BANER{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 2px;
+    background-color:#d4e8c6;
+}
+
+#MAIN{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 2px;
+    background-color: #8fa6bc;
+    color: white;
+}
+
+#PRODUCTOS{
+    width: 98%;
+    margin: 0 auto;
+    background-color: #facbaf;
+    height: 330px;
+}
+
+#NOTICIAS{
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: #f7cbb9;
+}
+
+#pie-pagina{
+    margin-top: 16px;
+    height: 50px;
+    background-color: #d49191;
+    color: white;
+}
+
+h1{
+    font-size: 18pt;   
+    margin-bottom: 3px;    
+}
+
+span{
+    margin: 0;
+}

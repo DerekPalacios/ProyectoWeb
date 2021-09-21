@@ -379,9 +379,11 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
+
+
 CREATE TABLE [dbo].[tbl_Cita](
 	[Id_Cita] [int] IDENTITY(1,1) NOT NULL,
-	[Id_O_Cita] [int] NULL,
+	[Id_Oftalmologo_Cita] [int] NULL,
 	[Id_P_Cita] [int] NULL,
 	[Fecha_Cita] [smalldatetime] NULL,
 	[Descripcion_Cita] [nvarchar](max) NULL,
@@ -456,7 +458,7 @@ SELECT        dbo.tbl_Cita.Fecha_Cita, dbo.tbl_Cita.Descripcion_Cita, dbo.tbl_Fa
                          dbo.tbl_Oftalmologo.Edad_Oftalmologo, dbo.tbl_Paciente.Nombres_Paciente, dbo.tbl_Paciente.Apellidos_Paciente, dbo.tbl_Paciente.Edad_Paciente, dbo.tbl_Paciente.Telefono_Paciente
 FROM            dbo.tbl_Cita INNER JOIN
                          dbo.tbl_Factura_Cita ON dbo.tbl_Cita.Id_Cita = dbo.tbl_Factura_Cita.Id_Cita_Factura_Cita INNER JOIN
-                         dbo.tbl_Oftalmologo ON dbo.tbl_Cita.Id_O_Cita = dbo.tbl_Oftalmologo.Id_Oftalmologo INNER JOIN
+                         dbo.tbl_Oftalmologo ON dbo.tbl_Cita.Id_Oftalmologo_Cita = dbo.tbl_Oftalmologo.Id_Oftalmologo INNER JOIN
                          dbo.tbl_Paciente ON dbo.tbl_Cita.Id_P_Cita = dbo.tbl_Paciente.Id_Paciente
 GO
 /****** Object:  Table [dbo].[tbl_Anteojo]    Script Date: 10/9/2021 12:43:57 ******/
@@ -835,7 +837,7 @@ REFERENCES [dbo].[tbl_Medida_Ojo] ([Id_Medida_Ojo])
 GO
 ALTER TABLE [dbo].[tbl_Anteojo] CHECK CONSTRAINT [FK_tbl_Anteojo_tbl_Medida_OjoIzquierdo]
 GO
-ALTER TABLE [dbo].[tbl_Cita]  WITH CHECK ADD FOREIGN KEY([Id_O_Cita])
+ALTER TABLE [dbo].[tbl_Cita]  WITH CHECK ADD FOREIGN KEY([Id_Oftalmologo_Cita])
 REFERENCES [dbo].[tbl_Oftalmologo] ([Id_Oftalmologo])
 GO
 ALTER TABLE [dbo].[tbl_Cita]  WITH CHECK ADD FOREIGN KEY([Id_P_Cita])

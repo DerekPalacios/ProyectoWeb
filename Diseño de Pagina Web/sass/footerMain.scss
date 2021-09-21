@@ -1,0 +1,60 @@
+.mainFooter{
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+    margin-top: 4px;
+    padding:20px 10px;
+    width: calc(100% - 20px);
+    & .mainFooterLogo{
+        height: 100%;
+        width: 200px;
+    }
+    & .mainFooterContac{
+        border-right: 1px solid gray;
+        flex-grow: 1;
+        font-size: 12px;
+        padding-right: 20px; 
+        & p{
+            display: flex;
+            justify-items: center;
+            margin-top: 4px;
+        }
+        & img{
+            height: 15px;
+            margin-top: 2px;
+            margin-right: 6px;
+            width: 15px;
+        }
+    }
+    & .mainFooterBolet{
+        border-right: 1px solid gray;
+        display: flex;
+        flex-grow: 1;
+        font-size: 12px;
+        flex-direction: column;
+        padding: 0px 20px; 
+        & .inputMail{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        & .aceptCond{
+            margin-bottom: 10px;
+        }
+    }
+    & .mainFooterSocial{
+        font-size: 12px;
+        padding: 0px 20px; 
+        & .socialIcons{
+            display: flex;
+            & img{
+                margin-left: 8px;
+                height: 35px;
+                width: 35px;
+            }
+        }
+    }
+}

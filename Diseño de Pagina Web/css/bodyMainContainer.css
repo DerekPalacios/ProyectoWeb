@@ -1,0 +1,143 @@
+.bodyMainContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+  margin: 0px;
+  padding: 6px;
+}
+
+.bodyMainContainer .mainInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4px 10px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoBanner {
+  background: #f2f2f2;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  width: 100%;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 4px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel {
+  background: #f2f2f2;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 12px;
+  height: 400px;
+  margin-top: 10px;
+  -webkit-transition: all ease-in 200ms;
+  transition: all ease-in 200ms;
+  width: 300px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel .panelInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel .panelInfo .infoTitle {
+  font-size: 20px;
+  line-height: 10px;
+  margin-bottom: 0px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel .panelInfo a {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+  padding: 0px 10px;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel:hover {
+  background: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: 500;
+}
+
+.bodyMainContainer .newInfo {
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  background: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bodyMainContainer .newInfo .newInfoCard {
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #ffffff;
+  width: 90%;
+  height: 200px;
+}
+
+.bodyMainContainer .newInfo .newInfoCard strong {
+  float: left;
+}
+
+.bodyMainContainer .newInfo .newInfoCard img {
+  background: #5a5a5a;
+  border-radius: 10px;
+  color: #ffffff;
+  display: inline;
+  float: left;
+  height: 100px;
+  margin: 10px;
+  width: 30%;
+}
+
+.bodyMainContainer .newInfo .newInfoCard:hover {
+  background: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=bodyMainContainer.css.map */

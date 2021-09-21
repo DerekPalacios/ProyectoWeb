@@ -1,0 +1,63 @@
+.headerMain {
+  background: #f2f2f2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+  height: 75px;
+  margin-top: 0px;
+}
+
+.headerMain .navBarMain > .navList {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin: 0px;
+}
+
+.headerMain .navBarMain > .navList li a {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 100;
+  font-stretch: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 14px 6px;
+  -webkit-transition: all ease-in-out 100ms;
+  transition: all ease-in-out 100ms;
+  text-decoration: none;
+  width: 90px;
+}
+
+.headerMain .navBarMain > .navList li a img {
+  height: 20px;
+  margin-right: 8px;
+  width: 20px;
+}
+
+.headerMain .navBarMain > .navList li a:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=headerStyle.css.map */
