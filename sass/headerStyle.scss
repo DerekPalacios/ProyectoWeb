@@ -4,6 +4,25 @@
     grid-template-columns: 55% 45%;
     height: 75px;
     margin-top: 0px;
+    & .headerBannerMain{
+        display: flex;
+        & p{
+            font-size: 20px;
+            font-weight: bold;            
+        }
+        & img{
+            width: 200px;
+            height: 100%;
+            background: lightgreen;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    }
     & .navBarMain > .navList{
         align-items: center;
         display: flex;

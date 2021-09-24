@@ -8,6 +8,30 @@
   margin-top: 0px;
 }
 
+.headerMain .headerBannerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerMain .headerBannerMain p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.headerMain .headerBannerMain img {
+  width: 200px;
+  height: 100%;
+  background: lightgreen;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
 .headerMain .navBarMain > .navList {
   -webkit-box-align: center;
       -ms-flex-align: center;

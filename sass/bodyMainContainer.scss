@@ -36,10 +36,15 @@
                     border-top-right-radius: 20px;
                     height: 200px;
                     width: 300px;
+                    background: lightgreen;
+                    text-align: center;
+                    line-height: 200px;
+                    font-weight: bolder;
+                    font-size: medium;
                 }
                 & .panelInfo{
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: column;                    
                     & .infoTitle{
                         font-size: 20px;
                         line-height: 10px;
@@ -49,6 +54,13 @@
                         align-self: flex-end;
                         justify-self: flex-end;
                         padding: 0px 10px;
+                        text-decoration: none;
+                        color: black;
+                        font-size: medium;
+                        font-weight: bold;
+                        &:hover{
+                            color:gray;
+                        }
                     }
                 }
                 &:hover{
@@ -58,7 +70,8 @@
                 }
             }
         }
-    } 
+    }
+
     & .newInfo{
         align-content:space-around;
         background: #f2f2f2;
@@ -72,18 +85,28 @@
             background: #ffffff;
             width: 90%;
             height: 200px;
+            padding-left: 10px;
             & strong{
                 float: left;
+                margin-top: 20px;
+                margin-right: 10px;
             }
             & img{
-                background: rgb(90, 90, 90);
+                background: lightgreen;
+                text-align: center;
+                line-height: 100px;
+                font-weight: bolder;
+                font-size: medium;
+                color: black;
+
+
                 border-radius: 10px;
-                color: #ffffff;
                 display: inline;
                 float: left;
                 height: 100px;
-                margin: 10px;
                 width: 30%;
+                margin: 10px 10px 0px 10px;
+               
             }
             &:hover{
                 background: white;

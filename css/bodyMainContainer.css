@@ -64,6 +64,11 @@
   border-top-right-radius: 20px;
   height: 200px;
   width: 300px;
+  background: lightgreen;
+  text-align: center;
+  line-height: 200px;
+  font-weight: bolder;
+  font-size: medium;
 }
 
 .bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel .panelInfo {
@@ -87,6 +92,14 @@
       align-self: flex-end;
   justify-self: flex-end;
   padding: 0px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel .panelInfo a:hover {
+  color: gray;
 }
 
 .bodyMainContainer .mainInfo .mainInfoPanelContainer .mainInfoPanel:hover {
@@ -117,21 +130,28 @@
   background: #ffffff;
   width: 90%;
   height: 200px;
+  padding-left: 10px;
 }
 
 .bodyMainContainer .newInfo .newInfoCard strong {
   float: left;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 .bodyMainContainer .newInfo .newInfoCard img {
-  background: #5a5a5a;
+  background: lightgreen;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bolder;
+  font-size: medium;
+  color: black;
   border-radius: 10px;
-  color: #ffffff;
   display: inline;
   float: left;
   height: 100px;
-  margin: 10px;
   width: 30%;
+  margin: 10px 10px 0px 10px;
 }
 
 .bodyMainContainer .newInfo .newInfoCard:hover {
